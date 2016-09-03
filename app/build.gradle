@@ -8,8 +8,8 @@ android {
         applicationId "io.pwapp.pw19"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 2
-        versionName "1.1"
+        versionCode 1
+        versionName "1.2"
     }
     buildTypes {
         release {
@@ -23,4 +23,5 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.segment.analytics.android:analytics:4.+'
 }
